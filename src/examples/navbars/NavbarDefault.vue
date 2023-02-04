@@ -15,9 +15,9 @@ const props = defineProps({
     color: String,
     label: String,
     default: () => ({
-      route: "https://www.creative-tim.com/product/vue-material-kit-pro",
-      color: "bg-gradient-success",
-      label: "Buy Now"
+      route: "https://onlineimmigrant.com",
+      color: "bg-gradient-secondary",
+      label: "Get Advice"
     })
   },
   transparent: {
@@ -120,7 +120,7 @@ watch(
         title="Designed and Coded by Creative Tim"
         data-placement="bottom"
       >
-        Material Kit 2 PRO
+        UK Visas
       </RouterLink>
       <RouterLink
         class="navbar-brand d-block d-md-none"
@@ -175,7 +175,7 @@ watch(
                 :class="getTextColor()"
                 >dashboard</i
               >
-              Pages
+              Visas
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"

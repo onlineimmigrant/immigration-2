@@ -50,25 +50,14 @@ defineProps({
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mb-4 mx-auto text-center">
-          <a
-            v-for="{ name, href } of links"
-            :key="name"
-            :href="href"
-            target="_blank"
-            class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
-          >
+          <a v-for="{ name, href } of links" :key="name" :href="href" target="_blank"
+            class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
             {{ name }}
           </a>
         </div>
         <div class="col-lg-8 mx-auto text-center mb-4 mt-2">
-          <a
-            v-for="{ icon, link } of socials"
-            :key="link"
-            :href="link"
-            target="_blank"
-            class="text-secondary me-xl-4 me-4"
-            v-html="icon"
-          >
+          <a v-for="{ icon, link } of socials" :key="link" :href="link" target="_blank"
+            class="text-secondary me-xl-4 me-4" v-html="icon">
           </a>
         </div>
       </div>
