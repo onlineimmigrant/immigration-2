@@ -47,20 +47,35 @@ onUnmounted(() => {
           <div class="col-lg-7 text-center mx-auto position-relative">
             <h1
               class="text-dark pt-3 mt-n5 me-2"
-              :style="{ display: 'inline-block ' }"
+              :style="{ display: 'inline-block '}"
+              :action="{ route: 'https://onlineimmigrant.com', label: 'here'}"
             >
               Full Guide on how to immigrate to the United Kingdom
             </h1>
+
+
+
             <MaterialBadge
               size="lg"
               color="white"
-              class="text-dark position-absolute"
+              class="text-dark position-center"
               style="top: -50%"
+              :action="{
+                route:'https://onlineimmigrant.com/'}"
               >Immigration Advice</MaterialBadge
             >
-            <p class="lead text-dark px-5 mt-3" style="font-weight: 500">
-              Find your way
+
+            
+            <p 
+              class="lead text-dark px-5 mt-3" 
+              style="font-weight: 400"
+              :action="{
+                route:'https://onlineimmigrant.com/',
+                label: 'here'
+              }">
+              
             </p>
+            
           </div>
         </div>
       </div>
