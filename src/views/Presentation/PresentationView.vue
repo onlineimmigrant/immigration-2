@@ -13,17 +13,8 @@ import MaterialBadge from "@/components/MaterialBadge.vue";
 
 // sections
 import PresentationCounter from "./Sections/PresentationCounter.vue";
-import PresentationPages from "./Sections/PresentationPages.vue";
-import PresentationExample from "./Sections/PresentationExample.vue";
-import data from "./Sections/Data/designBlocksData";
-import BuiltByDevelopers from "./Components/BuiltByDevelopers.vue";
-import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
-import PresentationPricing from "./Sections/PresentationPricing.vue";
-import PresentationAuthPages from "./Sections/PresentationAuthPages.vue";
-import PresentationInformation from "./Sections/PresentationInformation.vue";
 
-//images
-import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
+
 
 //hooks
 const body = document.getElementsByTagName("body")[0];
@@ -96,7 +87,9 @@ onUnmounted(() => {
             :action="{
               route:
               'https://onlineimmigrant.com/',
-              label: { text: 'Let\'s start', color: 'white' }
+              label: { text: 'Let\'s start', 
+              alt: 'Start to find immigration information', 
+              color: 'white' }
             }"
           />
         </div>
@@ -111,7 +104,10 @@ onUnmounted(() => {
             :action="{
               route:
                 'https://onlineimmigrant.com/',
-              label: { text: 'Read more', color: 'primary'  }
+                label: { 
+                text: 'Read more', 
+                alt: 'Find immigration information', 
+                color: 'primary' }
             }"
           />
         </div>
@@ -125,7 +121,10 @@ onUnmounted(() => {
             :action="{
               route:
               'https://onlineimmigrant.com/',
-              label: { text: 'Read more', color: 'primary' }
+              label: { 
+                text: 'Read more', 
+                alt: 'Find immigration information', 
+                color: 'primary' }
             }"
           />
         </div>
