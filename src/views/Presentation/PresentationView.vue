@@ -11,6 +11,8 @@ import MaterialButton from "@/components/MaterialButton.vue";
 //Vue Material Kit 2 Pro components
 import MaterialSocialButton from "@/components/MaterialSocialButton.vue";
 import MaterialBadge from "@/components/MaterialBadge.vue";
+import ColoredBackgroundCard from "@/examples/cards/backgroundCards/ColoredBackgroundCard.vue";
+import InfoBackgroundCard from "@/examples/cards/backgroundCards/InfoBackgroundCard.vue";
 
 // sections
 import PresentationCounter from "./Sections/PresentationCounter.vue";
@@ -81,7 +83,86 @@ onUnmounted(() => {
     <PresentationCounter />
 
 
-  
+    <section class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <div class="p-3 text-center mb-5">
+            <div
+              class="icon icon-shape icon-lg bg-gradient-primary shadow mx-auto"
+            >
+              <i class="material-icons opacity-10">person</i>
+            </div>
+            <h2 class="mt-3">Check out what&#39;s new</h2>
+            <p>
+              Let Us Navigate the Complexities of UK Immigration for You
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-lg-3 col-md-6 mb-5">
+          <ColoredBackgroundCard
+            color="primary"
+            image="https://res.cloudinary.com/dzagcqrbp/image/upload/v1675588580/onlineimmigrant/bxgqeehlckx9pgkrol1v.svg"
+            label="United Kingdom"
+            title="Immigration"
+            description="Breaking Down the Latest Immigration Policies: What You Need to Know"
+          />
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex flex-column">
+          <InfoBackgroundCard
+            color="dark"
+            image="https://res.cloudinary.com/dzagcqrbp/image/upload/v1675438617/onlineimmigrant/gdf2p1vgfuatcoydykdj.svg"
+            icon="list"
+            title="British Citizenship"
+            label="UK Citizenship: Eligibility, Benefits, and the Application Process"
+          />
+          <InfoBackgroundCard
+            class="mt-4 mb-5"
+            image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/greece.jpg"
+            icon="volunteer_activism"
+            title="Indefinite Leave to Remain"
+            label="The Path to UK Citizenship: Understanding Indefinite Leave to Remain and Beyond"
+          />
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex flex-column">
+          <InfoBackgroundCard
+            image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/city.jpg"
+            icon="people"
+      
+            title="Spouse Visa"
+            label="Happily Ever After: How to Secure a UK Spouse Visa for Your Partner"
+          />
+          <InfoBackgroundCard
+            class="mt-4 mb-5"
+            image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/laught.jpg"
+            icon="cake"
+            title="Visitor Visa"
+            label="Experience the Best of the UK: Secure Your Visitor Visa Today"
+          />
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex flex-column">
+          <InfoBackgroundCard
+            image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/city.jpg"
+            icon="work"
+      
+            title="Skilled Worker Visa"
+            label="UK Work Visa Requirements: Everything You Need to Know"
+          />
+          <InfoBackgroundCard
+            class="mt-4"
+            image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/laught.jpg"
+            icon="star"
+            title="Global Talent Visa"
+            label="Discover the Exciting New UK Global Talent Visa for Professionals!"
+          />
+        </div>
+
+      </div>
+    </div>
+  </section>
    
    
 
@@ -93,7 +174,7 @@ onUnmounted(() => {
             :color="{ text: 'white', background: 'bg-gradient-primary' }"
             :icon="{ component: 'flag', color: 'white' }"
             title="Getting Started"
-            description="Check the possible ways of working with our product and the necessary files for building your own project."
+            description="How to Navigate the UK Immigration Process: A Step-by-Step Guide"
             :action="{
               route:
               'https://onlineimmigrant.com/',
@@ -107,10 +188,9 @@ onUnmounted(() => {
           <FilledInfoCard
             class="px-lg-1 mt-lg-0 mt-4 p-4"
             height="h-100"
-            :icon="{ component: 'precision_manufacturing', color: 'primary' }"
-            title="Plugins"
-            description="Get inspiration and have an overview about the plugins that we
-                used to create the Material Kit."
+            :icon="{ component: 'article', color: 'primary' }"
+            title="Articles"
+            description="Discover Your Opportunities in the UK: Articles about Different Types of Immigration Visas"
             :action="{
               route:
                 'https://onlineimmigrant.com/',
@@ -125,9 +205,8 @@ onUnmounted(() => {
           <FilledInfoCard
             class="px-lg-1 mt-lg-0 mt-4 p-4"
             :icon="{ component: 'receipt_long', color: 'primary' }"
-            title="Utility Classes"
-            description="Material Kit is giving you a lot of pre-made elements. For those
-                who want flexibility, we included many utility classes."
+            title="Official Immigration Forms"
+            description="Navigate the UK Immigration Process with Ease: Official Forms and Links at Your Fingertips"
             :action="{
               route:
               'https://onlineimmigrant.com/',
