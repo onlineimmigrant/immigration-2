@@ -48,28 +48,27 @@ onUnmounted(() => {
   <Header>
     <div
       class="page-header min-vh-75"
-      :style="`background-image: url(${vueMkHeader})`"
+      :style="`background-image: url('https://res.cloudinary.com/dzagcqrbp/image/upload/v1675591737/onlineimmigrant/mgesyezawi343caikyzp.jpg')`"
       loading="lazy"
     >
       <div class="container">
         <div class="row">
           <div class="col-lg-7 text-center mx-auto position-relative">
             <h1
-              class="text-white pt-3 mt-n5 me-2"
+              class="text-dark pt-3 mt-n5 me-2"
               :style="{ display: 'inline-block ' }"
             >
-              Material Kit 2
+              Full Guide on how to immigrate to the United Kingdom
             </h1>
             <MaterialBadge
               size="lg"
               color="white"
               class="text-dark position-absolute"
-              style="top: -20%"
-              >Pro</MaterialBadge
+              style="top: -50%"
+              >Immigration Advice</MaterialBadge
             >
-            <p class="lead text-white px-5 mt-3" style="font-weight: 500">
-              Start the Development With Bootstrap 5 Design System inspired by
-              Material Design.
+            <p class="lead text-dark px-5 mt-3" style="font-weight: 500">
+              Find your way
             </p>
           </div>
         </div>
@@ -79,24 +78,24 @@ onUnmounted(() => {
 
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
     <PresentationCounter />
-    <PresentationInformation />
-    <PresentationExample :data="data" />
-    <PresentationAuthPages />
-    <PresentationPages />
-    <BuiltByDevelopers />
+
+
+  
+   
+   
 
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
           <FilledInfoCard
             class="p-4"
-            :color="{ text: 'white', background: 'bg-gradient-success' }"
+            :color="{ text: 'white', background: 'bg-gradient-primary' }"
             :icon="{ component: 'flag', color: 'white' }"
             title="Getting Started"
             description="Check the possible ways of working with our product and the necessary files for building your own project."
             :action="{
               route:
-                'https://www.creative-tim.com/learning-lab/vue/overview/material-kit/',
+              'https://onlineimmigrant.com/',
               label: { text: 'Let\'s start', color: 'white' }
             }"
           />
@@ -105,42 +104,42 @@ onUnmounted(() => {
           <FilledInfoCard
             class="px-lg-1 mt-lg-0 mt-4 p-4"
             height="h-100"
-            :icon="{ component: 'precision_manufacturing', color: 'success' }"
+            :icon="{ component: 'precision_manufacturing', color: 'primary' }"
             title="Plugins"
             description="Get inspiration and have an overview about the plugins that we
                 used to create the Material Kit."
             :action="{
               route:
-                'https://www.creative-tim.com/learning-lab/vue/datepicker/material-kit/',
-              label: { text: 'Read more' }
+                'https://onlineimmigrant.com/',
+              label: { text: 'Read more', color: 'primary'  }
             }"
           />
         </div>
         <div class="col-lg-4">
           <FilledInfoCard
             class="px-lg-1 mt-lg-0 mt-4 p-4"
-            :icon="{ component: 'receipt_long', color: 'success' }"
+            :icon="{ component: 'receipt_long', color: 'primary' }"
             title="Utility Classes"
             description="Material Kit is giving you a lot of pre-made elements. For those
                 who want flexibility, we included many utility classes."
             :action="{
               route:
-                'https://www.creative-tim.com/learning-lab/vue/utilities/material-kit/',
-              label: { text: 'Read more' }
+              'https://onlineimmigrant.com/',
+              label: { text: 'Read more', color: 'primary' }
             }"
           />
         </div>
       </div>
     </div>
-    <PresentationTestimonials />
-    <PresentationPricing />
+
+  
 
     <div class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 ms-auto">
             <h4 class="mb-1">Thank you for your support!</h4>
-            <p class="lead mb-0">We deliver the best web products</p>
+            <p class="lead mb-0">We deliver the best web links for immigrants</p>
           </div>
           <div class="col-lg-5 me-lg-auto my-lg-auto text-lg-end mt-5">
             <MaterialSocialButton
@@ -155,12 +154,7 @@ onUnmounted(() => {
               color="facebook"
               label="Share"
             />
-            <MaterialSocialButton
-              route=""
-              component="pinterest"
-              color="pinterest"
-              label="Pin it"
-            />
+
           </div>
         </div>
       </div>

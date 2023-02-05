@@ -10,11 +10,10 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
           <div class="row">
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
-                color="success"
-                title="Coded Elements"
-                description="From buttons, to inputs, navbars, alerts or cards, you are
-                  covered"
-                :count="300"
+                color="primary"
+                title="Articles"
+                description="Read how to immigrate to the United Kingdom"
+                :count="150"
                 suffix="+"
                 :duration="3000"
                 divider="vertical"
@@ -22,11 +21,10 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             </div>
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
-                color="success"
-                title="Design Blocks"
-                description="Mix the sections, change the colors and unleash your
-                  creativity"
-                :count="100"
+                color="primary"
+                title="Links"
+                description="Useful information - all that you need for immigration"
+                :count="300"
                 suffix="+"
                 :duration="3000"
                 divider="vertical"
@@ -34,10 +32,9 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             </div>
             <div class="col-md-4">
               <DefaultCounterCard
-                color="success"
-                title="Pages"
-                description="Save 3-4 weeks of work when you use our pre-made pages for
-                  your website"
+                color="primary"
+                title="Online Forms"
+                description="Find the actual online forms from the gov.uk"
                 :count="41"
                 suffix="+"
                 :duration="3000"

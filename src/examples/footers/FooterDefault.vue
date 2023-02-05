@@ -7,7 +7,7 @@ defineProps({
     logo: String,
     route: "",
     default: () => ({
-      name: "Material Kit 2 PRO",
+      name: "UK VISAS",
       logo: logoDark,
       route: "/",
     }),
@@ -25,14 +25,7 @@ defineProps({
         icon: '<i class="fab fa-twitter text-lg opacity-8"></i>',
         link: "https://twitter.com/creativetim",
       },
-      {
-        icon: '<i class="fab fa-dribbble text-lg opacity-8"></i>',
-        link: "https://dribbble.com/creativetim",
-      },
-      {
-        icon: '<i class="fab fa-github text-lg opacity-8"></i>',
-        link: "https://github.com/creativetimofficial",
-      },
+
       {
         icon: '<i class="fab fa-youtube text-lg opacity-8"></i>',
         link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
@@ -171,10 +164,10 @@ defineProps({
             <p class="text-dark my-4 text-sm font-weight-normal">
               All rights reserved. Copyright ©
               {{ new Date().getFullYear() }}
-              Material Kit by
+              
               <a href="https://www.creative-tim.com" target="_blank"
-                >Creative Tim</a
-              >.
+                ></a
+              >
             </p>
           </div>
         </div>
