@@ -6,6 +6,7 @@ import NavbarDefault from "../..//examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "../../examples/footers/FooterDefault.vue";
 import Header from "../../examples/Header.vue";
 import FilledInfoCard from "../../examples/cards/infoCards/FilledInfoCard.vue";
+import MaterialButton from "@/components/MaterialButton.vue";
 
 //Vue Material Kit 2 Pro components
 import MaterialSocialButton from "@/components/MaterialSocialButton.vue";
@@ -53,17 +54,11 @@ onUnmounted(() => {
               Full Guide on how to immigrate to the United Kingdom
             </h1>
 
+            <a href="https://onlineimmigrant.com/">
+            <MaterialButton variant="gradient" color="secondary">Immigration Advice</MaterialButton>
+          </a>
 
-
-            <MaterialBadge
-              size="lg"
-              color="white"
-              class="text-dark position-center"
-              style="top: -50%"
-              :action="{
-                route:'https://onlineimmigrant.com/'}"
-              >Immigration Advice</MaterialBadge
-            >
+     
 
             
             <p 
