@@ -109,7 +109,7 @@ watch(
           : 'text-white font-weight-bolder ms-sm-3'
       ]" :to="{ name: 'presentation' }" rel="tooltip" title="Online Immigrant Services"
         data-placement="bottom">
-        UK Visas
+        UK VISAS
       </RouterLink>
       <RouterLink class="navbar-brand d-block d-md-none" :class="
         props.transparent || props.dark
@@ -134,7 +134,7 @@ watch(
             <a role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" :class="getTextColor()"
               id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="material-icons opacity-6 me-2 text-md" :class="getTextColor()">dashboard</i>
-              Visas
+              Immigration Articles
               <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-2 d-lg-block d-none" />
               <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-1 d-lg-none d-block ms-auto" />
             </a>
