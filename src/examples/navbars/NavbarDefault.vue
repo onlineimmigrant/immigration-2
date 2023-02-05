@@ -138,7 +138,7 @@ watch(
               <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-2 d-lg-block d-none" />
               <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-1 d-lg-none d-block ms-auto" />
             </a>
-            
+
             <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-xl p-3 border-radius-xl mt-0 mt-lg-3"
               aria-labelledby="dropdownMenuPages">
 
@@ -268,102 +268,7 @@ watch(
               </div>
             </div>
           </li>
-          <li class="nav-item dropdown dropdown-hover mx-2">
-            <a role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" :class="getTextColor()"
-              id="dropdownMenuAccount" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="material-icons opacity-6 me-2 text-md" :class="getTextColor()">contacts</i>
-              Account
-              <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-2 d-lg-block d-none" />
-              <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-1 d-lg-none d-block ms-auto" />
-            </a>
-            <div class="dropdown-menu dropdown-menu-animation dropdown-md border-radius-xl p-3 mt-0 mt-lg-3"
-              aria-labelledby="dropdownMenuAccount">
-              <div class="d-none d-lg-flex">
-                <ul class="list-group w-100">
-                  <li class="nav-item dropdown dropdown-hover dropdown-subitem list-group-item border-0 p-0">
-                    <a class="dropdown-item border-radius-md text-dark ps-3 d-flex align-items-center mb-1"
-                      id="dropdownSignIn">
-                      <span>Sign In</span>
-                      <img :src="downArrow" alt="down-arrow" class="arrow ms-auto" />
-                    </a>
-                    <div class="dropdown-menu mt-0 py-3 px-2" aria-labelledby="dropdownSignIn">
-                      <RouterLink class="dropdown-item ps-3 border-radius-md mb-1" :to="{ name: 'signin-cover' }">
-                        <span>Cover</span>
-                      </RouterLink>
-                      <RouterLink class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'signin-illustration' }">
-                        <span>Illustration</span>
-                      </RouterLink>
-                      <RouterLink class="dropdown-item ps-3 border-radius-md mb-1" :to="{ name: 'signin-basic' }">
-                        <span>Basic</span>
-                      </RouterLink>
-                      <RouterLink class="dropdown-item ps-3 border-radius-md" :to="{ name: 'signin-simple' }">
-                        <span>Simple</span>
-                      </RouterLink>
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown dropdown-hover dropdown-subitem list-group-item border-0 p-0">
-                    <a class="dropdown-item border-radius-md text-dark ps-3 d-flex align-items-center mb-1"
-                      id="dropdownSignUp">
-                      <span>Sign Up</span>
-                      <img :src="downArrow" alt="down-arrow" class="arrow ms-auto" />
-                    </a>
-                    <div class="dropdown-menu mt-0 py-3 px-2" aria-labelledby="dropdownSignUp">
-                      <RouterLink class="dropdown-item ps-3 border-radius-md mb-1" :to="{ name: 'signup-cover' }">
-                        <span>Cover</span>
-                      </RouterLink>
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown dropdown-hover dropdown-subitem list-group-item border-0 p-0">
-                    <a class="dropdown-item border-radius-md text-dark ps-3 d-flex align-items-center mb-1"
-                      id="dropdownPasswordReset">
-                      <span>Password Reset</span>
-                      <img :src="downArrow" alt="down-arrow" class="arrow ms-auto" />
-                    </a>
-                    <div class="dropdown-menu mt-0 py-3 px-2" aria-labelledby="dropdownPasswordReset">
-                      <RouterLink class="dropdown-item ps-3 border-radius-md mb-1" :to="{ name: 'reset-cover' }">
-                        <span>Cover</span>
-                      </RouterLink>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div class="row d-lg-none">
-                <div class="col-12 d-flex justify-content-center flex-column">
-                  <h6
-                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center px-0">
-                    Sign In
-                  </h6>
-                  <RouterLink :to="{ name: 'signin-cover' }" class="dropdown-item border-radius-md">
-                    Cover
-                  </RouterLink>
-                  <RouterLink :to="{ name: 'signin-illustration' }" class="dropdown-item border-radius-md">
-                    Illustration
-                  </RouterLink>
-                  <RouterLink :to="{ name: 'signin-basic' }" class="dropdown-item border-radius-md">
-                    Basic
-                  </RouterLink>
-                  <RouterLink :to="{ name: 'signin-simple' }" class="dropdown-item border-radius-md">
-                    Simple
-                  </RouterLink>
-                  <h6
-                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center mt-3 px-0">
-                    Sign Up
-                  </h6>
-                  <RouterLink :to="{ name: 'signup-cover' }" class="dropdown-item border-radius-md">
-                    Cover
-                  </RouterLink>
-                  <h6
-                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center mt-3 px-0">
-                    Password Reset
-                  </h6>
-                  <RouterLink :to="{ name: 'reset-cover' }" class="dropdown-item border-radius-md">
-                    Cover
-                  </RouterLink>
-                </div>
-              </div>
-            </div>
-          </li>
+
           <li class="nav-item dropdown dropdown-hover mx-2">
             <a role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" :class="getTextColor()"
               id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
