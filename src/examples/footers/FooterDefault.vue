@@ -19,16 +19,17 @@ defineProps({
     default: () => [
       {
         icon: '<i class="fab fa-facebook text-lg opacity-8"></i>',
-        link: "https://www.facebook.com/CreativeTim/",
+        link: "https://www.facebook.com/onlineimmigrantUK/",
       },
       {
         icon: '<i class="fab fa-twitter text-lg opacity-8"></i>',
-        link: "https://twitter.com/creativetim",
+        link: "https://twitter.com/youImmigrateUK/",
       },
 
+
       {
-        icon: '<i class="fab fa-youtube text-lg opacity-8"></i>',
-        link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
+        icon: '<i class="fab fa-instagram text-lg opacity-8"></i>',
+        link: "https://instagram.com/online_immigrant_services/",
       },
     ],
   },
@@ -46,71 +47,72 @@ defineProps({
         items: [
           {
             name: "about us",
-            href: "https://www.creative-tim.com/presentation",
+            href: "https://onlineimmigrant.com/about/",
           },
           {
-            name: "freebies",
-            href: "https://www.creative-tim.com/templates/free",
+            name: "contact",
+            href: "https://onlineimmigrant.com/contact/",
           },
           {
-            name: "premium tools",
-            href: "https://www.creative-tim.com/templates/premium",
+            name: "meeting",
+            href: "https://onlineimmigrant.com/meeting/",
           },
-          { name: "blog", href: "https://www.creative-tim.com/blog" },
+          { name: "useful links", 
+            href: "https://onlineimmigrant.com/useful-links/" },
         ],
       },
       {
-        name: "resources",
+        name: "immigration",
         items: [
-          { name: "illustrations", href: "https://iradesign.io/" },
+          { name: "life in the UK test", href: "https://onlineimmigrant.com/life-in-the-uk-test/" },
           {
-            name: "bits & snippets",
-            href: "https://www.creative-tim.com/bits",
+            name: "indefinite leave to remain",
+            href: "https://onlineimmigrant.com/indefinite-leave-to-remain/",
           },
           {
-            name: "affiliate program",
-            href: "https://www.creative-tim.com/affiliates/new",
-          },
-        ],
-      },
-      {
-        name: "help & support",
-        items: [
-          {
-            name: "contact us",
-            href: "https://www.creative-tim.com/contact-us",
-          },
-          {
-            name: "knowledge center",
-            href: "https://www.creative-tim.com/knowledge-center",
-          },
-          {
-            name: "custom development",
-            href: "https://services.creative-tim.com/",
-          },
-          {
-            name: "sponsorships",
-            href: "https://www.creative-tim.com/sponsorships",
+            name: "british citizenship",
+            href: "https://onlineimmigrant.com/british-citizenship/",
           },
         ],
       },
       {
-        name: "legal",
+        name: "visas",
         items: [
           {
-            name: "terms & conditions",
-            href: "https://www.creative-tim.com/terms",
+            name: "spouse visa",
+            href: "https://onlineimmigrant.com/spouse-visa/",
           },
           {
-            name: "privacy policy",
-            href: "https://www.creative-tim.com/privacy",
+            name: "skilled worker visa",
+            href: "https://onlineimmigrant.com/skilled-worker-visa/",
           },
           {
-            name: "licenses (EULA)",
-            href: "https://www.creative-tim.com/license",
+            name: "eu settlement",
+            href: "https://onlineimmigrant.com/settlement-scheme-status-eu-citizens-families/",
+          },
+          {
+            name: "student visa",
+            href: "https://onlineimmigrant.com/student-visa/",
+          },
+          {
+            name: "global talent visa",
+            href: "https://onlineimmigrant.com/global-talent-visa/",
+          },
+          {
+            name: "visitor visa",
+            href: "https://onlineimmigrant.com/visitor-visa/",
+          },
+          {
+            name: "ukraine visa schemes",
+            href: "https://onlineimmigrant.com/ukraine-visa-schemes/",
+          },
+          {
+            name: "family members",
+            href: "https://onlineimmigrant.com/family-visa/",
           },
         ],
       },
+
     ],
   },
 });
@@ -165,7 +167,7 @@ defineProps({
               All rights reserved. Copyright ©
               {{ new Date().getFullYear() }}
               
-              <a href="https://www.creative-tim.com" target="_blank"
+              <a href="https://onlineimmigrant.com" target="_blank"
                 ></a
               >
             </p>
