@@ -109,17 +109,18 @@ watch(
           : 'text-white font-weight-bolder ms-sm-3'
       ]" :to="{ name: 'presentation' }" rel="tooltip" title="Online Immigrant Services"
         data-placement="bottom">
+        <i class="material-icons opacity-6 me-2 text-md" :class="getTextColor()">dashboard</i>
         UK VISAS
       </RouterLink>
       <RouterLink class="navbar-brand d-block d-md-none" :class="
         props.transparent || props.dark
           ? 'text-white'
           : 'font-weight-bolder ms-sm-3'
-      " to="/" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom">
-        Find Your Route
+      " to="/" rel="tooltip" title="OnlineImmigrant" data-placement="bottom">
+      <i class="material-icons opacity-6 me-2 text-md" :class="getTextColor()">dashboard</i>
+       uk visas
       </RouterLink>
-      <a href="https://onlineimmigrant.com"
-        class="btn btn-sm bg-gradient-secondary mb-0 ms-auto d-lg-none d-block">Get Advice</a>
+      
       <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
         data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon mt-2">
@@ -133,10 +134,8 @@ watch(
           <li class="nav-item dropdown dropdown-hover mx-2">
             <a role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" :class="getTextColor()"
               id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="material-icons opacity-6 me-2 text-md" :class="getTextColor()">dashboard</i>
+              
               Immigration Articles
-              <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-2 d-lg-block d-none" />
-              <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-1 d-lg-none d-block ms-auto" />
             </a>
 
             <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-xl p-3 border-radius-xl mt-0 mt-lg-3"
@@ -272,10 +271,9 @@ watch(
           <li class="nav-item dropdown dropdown-hover mx-2">
             <a role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" :class="getTextColor()"
               id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="material-icons opacity-6 me-2 text-md" :class="getTextColor()">view_day</i>
+             
               Sections
-              <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-2 d-lg-block d-none" />
-              <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-1 d-lg-none d-block ms-auto" />
+              
             </a>
             <div
               class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md dropdown-md-responsive p-3 border-radius-lg mt-0 mt-lg-3"
@@ -653,10 +651,8 @@ watch(
           <li class="nav-item dropdown dropdown-hover mx-2">
             <a role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" :class="getTextColor()"
               id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="material-icons opacity-6 me-2 text-md" :class="getTextColor()">article</i>
+             
               Docs
-              <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-2 d-lg-block d-none" />
-              <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-1 d-lg-none d-block ms-auto" />
             </a>
             <div
               class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md mt-0 mt-lg-3 p-3 border-radius-lg"
