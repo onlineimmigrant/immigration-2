@@ -113,14 +113,14 @@ onUnmounted(() => {
         <div class="col-lg-3 col-md-6 d-flex flex-column">
           <InfoBackgroundCard
             color="dark"
-            image="https://res.cloudinary.com/dzagcqrbp/image/upload/v1675438617/onlineimmigrant/gdf2p1vgfuatcoydykdj.svg"
+            image=""
             icon="list"
             title="British Citizenship"
             label="UK Citizenship: Eligibility, Benefits, and the Application Process"
           />
           <InfoBackgroundCard
             class="mt-4 mb-5"
-            image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/greece.jpg"
+            image=""
             icon="volunteer_activism"
             title="Indefinite Leave to Remain"
             label="The Path to UK Citizenship: Understanding Indefinite Leave to Remain and Beyond"
@@ -128,7 +128,7 @@ onUnmounted(() => {
         </div>
         <div class="col-lg-3 col-md-6 d-flex flex-column">
           <InfoBackgroundCard
-            image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/city.jpg"
+            image=""
             icon="people"
       
             title="Spouse Visa"
@@ -136,7 +136,7 @@ onUnmounted(() => {
           />
           <InfoBackgroundCard
             class="mt-4 mb-5"
-            image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/laught.jpg"
+            image=""
             icon="cake"
             title="Visitor Visa"
             label="Experience the Best of the UK: Secure Your Visitor Visa Today"
@@ -145,7 +145,7 @@ onUnmounted(() => {
 
         <div class="col-lg-3 col-md-6 d-flex flex-column">
           <InfoBackgroundCard
-            image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/city.jpg"
+            image=""
             icon="work"
       
             title="Skilled Worker Visa"
@@ -153,7 +153,7 @@ onUnmounted(() => {
           />
           <InfoBackgroundCard
             class="mt-4"
-            image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/laught.jpg"
+            image=""
             icon="star"
             title="Global Talent Visa"
             label="Discover the Exciting New UK Global Talent Visa for Professionals!"
