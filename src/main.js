@@ -3,6 +3,9 @@ import { createPinia } from "pinia";
 import App from "./App.vue";
 import router from "./router";
 
+// Nucleo Icons
+import "./assets/css/nucleo-icons.css";
+import "./assets/css/nucleo-svg.css";
 
 import materialKit from "./material-kit";
 
